@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.kristoffer.newazureuser.ShowServiceOversiktActivity"
+    tools:showIn="@layout/activity_show_service_oversikt">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Detaljer Oversikt"
+        android:id="@+id/service_show_detaljer_oversikt_"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service ID"
+        android:id="@+id/show_service_ID_textView"
+        android:layout_below="@+id/service_show_detaljer_oversikt_"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Navn"
+        android:id="@+id/show_service_navn_textView"
+        android:layout_below="@+id/show_service_ID_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Beskrivelse"
+        android:id="@+id/show_service_beskrivelse_textView"
+        android:layout_below="@+id/show_service_navn_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gruppe Navn"
+        android:id="@+id/show_service_gruppe_navn_textView"
+        android:layout_below="@+id/show_service_beskrivelse_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unit Price"
+        android:id="@+id/show_service_unit_price_textView"
+        android:layout_below="@+id/show_service_gruppe_navn_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provider ID"
+        android:id="@+id/show_service_provider_ID_textView"
+        android:layout_below="@+id/show_service_unit_price_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Gruppe ID"
+        android:id="@+id/show_service_gruppe_ID_textView"
+        android:layout_below="@+id/show_service_provider_ID_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avail From"
+        android:id="@+id/show_service_avail_from_textView"
+        android:layout_below="@+id/show_service_gruppe_ID_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avail To"
+        android:id="@+id/show_service_avail_to_textView"
+        android:layout_below="@+id/show_service_avail_from_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provider"
+        android:id="@+id/show_service_provider_textView"
+        android:layout_below="@+id/show_service_avail_to_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/show_service_image_view"
+        android:layout_below="@+id/show_service_provider_textView"
+        android:layout_alignRight="@+id/service_show_detaljer_oversikt_"
+        android:layout_alignEnd="@+id/service_show_detaljer_oversikt_"
+        android:layout_marginTop="69dp" />
+</RelativeLayout>

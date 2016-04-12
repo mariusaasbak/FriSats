@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.kristoffer.newazureuser.ShowOrdersDetailsActivity"
+    tools:showIn="@layout/activity_show_orders_details">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order ID"
+        android:id="@+id/order_details_ID"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Start Time"
+        android:id="@+id/order_details_start_time"
+        android:layout_below="@+id/order_details_ID"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order End Time"
+        android:id="@+id/order_details_end_time"
+        android:layout_below="@+id/order_details_start_time"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Location"
+        android:id="@+id/order_details_location"
+        android:layout_below="@+id/order_details_end_time"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Price"
+        android:id="@+id/order_details_price"
+        android:layout_below="@+id/order_details_location"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orders Service ID"
+        android:id="@+id/orders_details_service_ID"
+        android:layout_below="@+id/order_details_price"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orders User ID"
+        android:id="@+id/orders_details_user_ID"
+        android:layout_below="@+id/orders_details_service_ID"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service"
+        android:id="@+id/order_details_srvice_textView"
+        android:layout_below="@+id/orders_details_user_ID"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service ID"
+        android:id="@+id/orders_service_ID"
+        android:layout_below="@+id/order_details_srvice_textView"
+        android:layout_toRightOf="@+id/order_details_srvice_textView"
+        android:layout_toEndOf="@+id/order_details_srvice_textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Name"
+        android:id="@+id/orders_service_name"
+        android:layout_below="@+id/orders_service_ID"
+        android:layout_alignLeft="@+id/orders_service_ID"
+        android:layout_alignStart="@+id/orders_service_ID" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Description"
+        android:id="@+id/orders_service_description"
+        android:layout_below="@+id/orders_service_name"
+        android:layout_alignLeft="@+id/orders_service_name"
+        android:layout_alignStart="@+id/orders_service_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Group Name"
+        android:id="@+id/orders_service_group_name"
+        android:layout_below="@+id/orders_service_description"
+        android:layout_alignLeft="@+id/orders_service_description"
+        android:layout_alignStart="@+id/orders_service_description" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Unit Price"
+        android:id="@+id/orders_service_unit_price"
+        android:layout_below="@+id/orders_service_image_URL"
+        android:layout_toRightOf="@+id/order_details_srvice_textView"
+        android:layout_toEndOf="@+id/order_details_srvice_textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Provider ID"
+        android:id="@+id/orders_service_provider_ID"
+        android:layout_below="@+id/orders_service_unit_price"
+        android:layout_alignLeft="@+id/orders_service_unit_price"
+        android:layout_alignStart="@+id/orders_service_unit_price" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Group ID"
+        android:id="@+id/orders_service_group_ID"
+        android:layout_below="@+id/orders_service_provider_ID"
+        android:layout_alignLeft="@+id/orders_service_provider_ID"
+        android:layout_alignStart="@+id/orders_service_provider_ID" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Avail From"
+        android:id="@+id/orders_service_avail_from"
+        android:layout_below="@+id/orders_service_group_ID"
+        android:layout_alignLeft="@+id/orders_service_group_ID"
+        android:layout_alignStart="@+id/orders_service_group_ID" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Avail To"
+        android:id="@+id/orders_service_avail_to"
+        android:layout_below="@+id/orders_service_avail_from"
+        android:layout_alignLeft="@+id/orders_service_avail_from"
+        android:layout_alignStart="@+id/orders_service_avail_from" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Provider"
+        android:id="@+id/orders_service_provider"
+        android:layout_below="@+id/orders_service_avail_to"
+        android:layout_alignLeft="@+id/orders_service_avail_to"
+        android:layout_alignStart="@+id/orders_service_avail_to" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Customer"
+        android:id="@+id/order_details_customer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/orders_service_provider" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Image URL"
+        android:id="@+id/orders_service_image_URL"
+        android:layout_below="@+id/orders_service_group_name"
+        android:layout_toRightOf="@+id/order_details_srvice_textView"
+        android:layout_toEndOf="@+id/order_details_srvice_textView" />
+</RelativeLayout>

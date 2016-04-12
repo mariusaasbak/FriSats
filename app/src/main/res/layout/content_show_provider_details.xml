@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.kristoffer.newazureuser.ShowProviderDetailsActivity"
+    tools:showIn="@layout/activity_show_provider_details">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provider ID:"
+        android:textSize="20dp"
+        android:id="@+id/provider_details_ID_textView"
+        android:layout_marginTop="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provider First Name:"
+        android:textSize="20dp"
+        android:id="@+id/provider_details_first_name_textView"
+        android:layout_below="@+id/provider_details_ID_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provider Last Name:"
+        android:textSize="20dp"
+        android:id="@+id/provider_details_last_name_textView"
+        android:layout_below="@+id/provider_details_first_name_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provider Company Name:"
+        android:textSize="20dp"
+        android:id="@+id/provider_details_company_name_textView"
+        android:layout_below="@+id/provider_details_last_name_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provider Adresse:"
+        android:textSize="20dp"
+        android:id="@+id/provider_details_address_textView"
+        android:layout_below="@+id/provider_details_company_name_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provider Post Nummer"
+        android:textSize="20dp"
+        android:id="@+id/provider_details_post_number_textView"
+        android:layout_below="@+id/provider_details_address_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provider Location"
+        android:textSize="20dp"
+        android:id="@+id/provider_details_location_textView"
+        android:layout_below="@+id/provider_details_post_number_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provider Telephone"
+        android:textSize="20dp"
+        android:id="@+id/provider_details_telephone_textView"
+        android:layout_below="@+id/provider_details_location_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provider Latitude"
+        android:textSize="20dp"
+        android:id="@+id/provider_details_latitude_textView"
+        android:layout_below="@+id/provider_details_telephone_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provider Longitude"
+        android:textSize="20dp"
+        android:id="@+id/provider_details_longitude_textView"
+        android:layout_below="@+id/provider_details_latitude_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provider Email"
+        android:textSize="20dp"
+        android:id="@+id/provider_details_email_textView"
+        android:layout_below="@+id/provider_details_longitude_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provider Rating"
+        android:textSize="20dp"
+        android:id="@+id/provider_details_rating_textView"
+        android:layout_below="@+id/provider_details_email_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detaljer om:"
+        android:textSize="20dp"
+        android:id="@+id/provider_details_detaljer_textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#025507" />
+</RelativeLayout>

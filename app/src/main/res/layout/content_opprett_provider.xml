@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.kristoffer.newazureuser.OpprettProviderActivity"
+    tools:showIn="@layout/activity_opprett_provider">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opprett en ny Provider"
+        android:id="@+id/opprett_en_ny_provider_textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/provider_fornavn_editText"
+        android:layout_marginTop="32dp"
+        android:hint="Fornavn"
+        android:layout_below="@+id/opprett_en_ny_provider_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/provider_firmanavn_editText"
+        android:layout_alignEnd="@+id/provider_firmanavn_editText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/provider_etternavn_editText"
+        android:layout_below="@+id/provider_fornavn_editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/provider_fornavn_editText"
+        android:layout_alignEnd="@+id/provider_fornavn_editText"
+        android:hint="Etternavn" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/provider_firmanavn_editText"
+        android:layout_below="@+id/provider_etternavn_editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="Firmanavn" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/provider_postnummer_editText"
+        android:hint="Postnummer"
+        android:layout_below="@+id/provider_adresse_editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/provider_adresse_editText"
+        android:layout_alignEnd="@+id/provider_adresse_editText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:id="@+id/provider_postadresse_editText"
+        android:layout_below="@+id/provider_postnummer_editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/provider_postnummer_editText"
+        android:layout_alignEnd="@+id/provider_postnummer_editText"
+        android:hint="Postadresse" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/provider_telefonnummer_editText"
+        android:layout_below="@+id/provider_postadresse_editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/provider_postadresse_editText"
+        android:layout_alignEnd="@+id/provider_postadresse_editText"
+        android:hint="Telefonnummer" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/provider_epost_editText"
+        android:layout_below="@+id/provider_telefonnummer_editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/provider_telefonnummer_editText"
+        android:layout_alignEnd="@+id/provider_telefonnummer_editText"
+        android:hint="E-post" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regitrer Provider"
+        android:id="@+id/registrer_provider_btn"
+        android:layout_below="@+id/provider_epost_editText"
+        android:layout_alignLeft="@+id/opprett_en_ny_provider_textView"
+        android:layout_alignStart="@+id/opprett_en_ny_provider_textView"
+        android:layout_marginTop="37dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/provider_adresse_editText"
+        android:layout_below="@+id/provider_firmanavn_editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/provider_firmanavn_editText"
+        android:layout_alignEnd="@+id/provider_firmanavn_editText"
+        android:hint="Adresse" />
+
+</RelativeLayout>

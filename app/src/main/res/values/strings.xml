@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">NewAzureUser</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="title_activity_register_new_customer">RegisterNewCustomerActivity</string>
+    <string name="title_activity_oversikt">OversiktActivity</string>
+    <string name="title_activity_show_oversikt_details">ShowOversiktDetailsActivity</string>
+    <string name="title_activity_profil">ProfilActivity</string>
+    <string name="title_activity_hoved_meny">HovedMenyActivity</string>
+    <string name="title_activity_ny_tjeneste">NyTjenesteActivity</string>
+    <string name="title_activity_ny_service">NyServiceActivity</string>
+    <string name="title_activity_show_service_details">ShowServiceDetailsActivity</string>
+    <string name="title_activity_opprett_gruppe">OpprettGruppeActivity</string>
+    <string name="title_activity_oversikt_provider">OversiktProviderActivity</string>
+    <string name="title_activity_show_oversikt_provider">ShowOversiktProviderActivity</string>
+    <string name="title_activity_show_provider_details">ShowProviderDetailsActivity</string>
+    <string name="title_activity_opprett_provider">OpprettProviderActivity</string>
+    <string name="title_activity_oversikt_service">OversiktServiceActivity</string>
+    <string name="title_activity_show_service_oversikt">ShowServiceOversiktActivity</string>
+    <string name="title_activity_opprett_service">OpprettServiceActivity</string>
+    <string name="title_activity_oversikt_custumers">OversiktCustumersActivity</string>
+    <string name="title_activity_show_customer_details">ShowCustomerDetailsActivity</string>
+    <string name="title_activity_oversikt_orders">OversiktOrdersActivity</string>
+    <string name="title_activity_show_orders_details">ShowOrdersDetailsActivity</string>
+    <string name="title_activity_opprett_order">OpprettOrderActivity</string>
+</resources>

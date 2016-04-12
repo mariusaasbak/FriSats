@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kristoffer.newazureuser">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegisterNewCustomerActivity"
+            android:label="@string/title_activity_register_new_customer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OversiktActivity"
+            android:label="@string/title_activity_oversikt"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShowOversiktDetailsActivity"
+            android:label="@string/title_activity_show_oversikt_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProfilActivity"
+            android:label="@string/title_activity_profil"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HovedMenyActivity"
+            android:label="@string/title_activity_hoved_meny"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NyTjenesteActivity"
+            android:label="@string/title_activity_ny_tjeneste"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NyServiceActivity"
+            android:label="@string/title_activity_ny_service"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShowServiceDetailsActivity"
+            android:label="@string/title_activity_show_service_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OpprettGruppeActivity"
+            android:label="@string/title_activity_opprett_gruppe"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OversiktProviderActivity"
+            android:label="@string/title_activity_oversikt_provider"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShowProviderDetailsActivity"
+            android:label="@string/title_activity_show_provider_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OpprettProviderActivity"
+            android:label="@string/title_activity_opprett_provider"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OversiktServiceActivity"
+            android:label="@string/title_activity_oversikt_service"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShowServiceOversiktActivity"
+            android:label="@string/title_activity_show_service_oversikt"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OpprettServiceActivity"
+            android:label="@string/title_activity_opprett_service"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OversiktCustumersActivity"
+            android:label="@string/title_activity_oversikt_custumers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShowCustomerDetailsActivity"
+            android:label="@string/title_activity_show_customer_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OversiktOrdersActivity"
+            android:label="@string/title_activity_oversikt_orders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShowOrdersDetailsActivity"
+            android:label="@string/title_activity_show_orders_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OpprettOrderActivity"
+            android:label="@string/title_activity_opprett_order"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
